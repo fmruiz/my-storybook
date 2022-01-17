@@ -14,8 +14,19 @@ export const Basic = Template.bind({});
 Basic.args = {
   size: "normal",
   label: "Basic",
+  allCaps: false,
 };
 
 export const AllCaps = Template.bind({});
+AllCaps.args = {
+  size: "normal",
+  label: "AllCaps",
+  allCaps: true,
+};
 
 export const Secondary = Template.bind({});
+Secondary.args = {
+  size: "normal",
+  label: "Secondary",
+  color: "secondary",
+};
